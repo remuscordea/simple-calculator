@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('images/background.jpg');
+}
+
+h1 {
+    text-align: center;
+    color: #000;
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 6rem;
+}
+
+#mainDiv {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    /* width: 350px; */
+    margin: 0 auto 0;
+    background-color: #584b4b;
+    border-radius: 6px;
+}
+
+input {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+input[type="submit"], input[type="button"], input[type="reset"] {
+    width: 90px;
+    height: 50px;
+    border: 0;
+    outline: none;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 48px;
+    border: 0;
+    outline: none;
+    transition: 0.3s;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+input:hover {
+    opacity: 1;
+}

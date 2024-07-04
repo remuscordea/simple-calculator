@@ -1,6 +1,6 @@
 # Simple Calculator - web based
 
-This is just a simple but stylished HTML calculator.
+This is just a simple but stylished HTML and CSS calculator.
 
 ## Preview:
 
